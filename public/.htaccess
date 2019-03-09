@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^b_([^./]+)\.js$ bookmark.php?token=$1 [L]
+
